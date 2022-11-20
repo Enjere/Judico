@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Martel;
+    src: url("./../assets/fonts/Martel-Regular.ttf");
+}
+
+@font-face {
+    font-family: Martel-bold;
+    src: url("./../assets/fonts/Martel-ExtraBold.ttf");
+}
+
+
+@font-face {
+    font-family: Open_sans;
+    src: url("./../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("./../assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.start{
+    background-image: url("./../assets/img/cover.png");
+    height: 770px;
+}
+
+.start_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.start_header > img{
+    padding-bottom: 4px;
+    padding-right: 59.5px;
+}
+
+.start_header_container{
+    display: flex;
+    margin-top: 38px;
+    margin-left: 195px;
+    column-gap: 148px;
+    align-items: center;
+}
+
+.start_header_container_nav{
+    margin-top: 2px;
+    display: flex;
+    column-gap: 29px;
+}
+
+.start_header_container_nav a{
+    text-decoration: none;
+    font-family: Open_sans;
+    color: #737373;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.start_content{
+    margin-top: 166px;
+    margin-left: 195px;
+}
+
+.start_content p{
+    margin: 0;
+}
+
+.start_content h1{
+    font-family: Martel-bold;
+    color: #252B42;
+    font-weight: bolder;
+    font-size: 58px;
+    line-height: 65px;
+    letter-spacing: 1px;
+    margin-bottom: 34px;
+}
+
+.start_content h4{
+    font-family: Montserrat;
+    color: #737373;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    margin-bottom: 35px;
+}
+
+.start_content_btns {
+    margin-left: 1px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.start_content_btns button{
+    padding: 9px 37px;
+    color: #784F33;
+    font-family: Open_sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    border: #784F33 solid 1px;
+    background-color: transparent;
+    border-radius: 37px;
+}
+
+.start_content_btns button:hover{
+    background-color: #784F33;
+    color: #FFFFFF;
+    cursor: pointer;
+}
