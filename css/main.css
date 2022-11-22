@@ -161,7 +161,7 @@
     grid-template-rows: repeat(2, 1fr);
     column-gap: 30px;
     row-gap: 30px;
-    margin-top: 45px;
+    margin-top: 42px;
     margin-bottom: 44px;
 }
 
@@ -196,7 +196,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.6px;
     color: #737373;
 }
 
@@ -204,6 +204,7 @@
     margin-left: 1px;
     display: flex;
     column-gap: 10px;
+    margin-bottom: 157px;
 }
 
 .featur_content_btns button{
@@ -213,7 +214,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 28px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.3px;
     border: #295C7A solid 1px;
     background-color: transparent;
     border-radius: 37px;
@@ -223,4 +224,129 @@
     background-color: #295C7A;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.who
+{
+    text-align: center;
+}
+
+.who_content
+{
+    padding-top: 68px;
+}
+
+.who_content h4 
+{
+    margin: 0;
+    font-family: Open_sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.who_content h4 p
+{
+    margin: 0;
+}
+
+.who_content h2
+{
+    margin-bottom: 15px;
+    font-family: Martel;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.who_cont
+{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 196.5px;
+    column-gap: 121.5px;
+    align-items: flex-start;
+}
+
+.who_cont_text p
+{
+    margin: 0;
+}
+
+.who_cont_text
+{
+    text-align: left;
+}
+
+.who_cont_text h2
+{
+    font-family: Martel;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 10px;
+    margin-top: 29px;
+}
+
+.who_cont_text h4
+{
+    font-family: Open_Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.who_cont_text div h3
+{
+    font-family: Martel;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.who_cont_text div h4
+{
+    font-family: Open_Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    color: #737373;  
+    margin: 0;  
+    margin-bottom: 30px;
+}
+
+.who_cont_text div
+{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 21px;
+}
+
+.who_cont_text div div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.who_cont_text div img
+{
+    width: 30px;
+   
+    
 }
