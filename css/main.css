@@ -558,4 +558,180 @@
     border-radius: 200px;
 }
 
-.
+.attorneys
+{
+    height: 608px;
+    left: 0px;
+    right: 2px;
+    top: 3137px;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+}
+
+.attorneys div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 50px;
+   
+    width: 1050px;
+    height: 601px;
+}
+#layers
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 864px;
+    height: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.attorneys div div h2
+{
+    width: 401px;
+    height: 50px;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 0;
+}
+.attorneys div div p
+{
+    width: 431px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 10px;
+}
+#layers_photo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1440px;
+    height: 291px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    justify-content: center;
+}
+.attorneys div div div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 30px 40px; */
+    gap: 5px;
+    width: 230px;
+    height: 291px;
+    flex: none;
+    flex-grow: 0;
+    /* margin-top: 230px; */
+}
+#layer
+{
+    margin-left: 10px;
+    order:0;
+}
+#ceo
+{
+    margin-left: 10px;
+    order:1;
+}
+#law
+{
+    margin-left: 10px;
+    order:2;
+}
+#co_founder
+{
+    margin-left: 10px;
+    order:3;
+}
+.attorneys div div div img
+{
+    width: 128px;
+    height: 128px;
+    border-radius: 200px;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+}
+.attorneys div div div h6
+{
+    width: 146px;
+    height: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #D0A144;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0;
+}
+.attorneys div div div h5
+{
+    width: 132px;
+    height: 24px;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    flex: none;
+    order: 2;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0;
+}
+.attorneys div div div p
+{
+    width: 136px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 3;
+    align-self: center;
+    flex-grow: 0;
+}
