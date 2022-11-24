@@ -361,6 +361,7 @@
     right: 2px;
     top: 2459px;
     background: #295C7A;
+    margin-top: 120px;
 }
 .text
 {
@@ -567,6 +568,7 @@
     background: #FAFAFA;
     display: flex;
     justify-content: center;
+    margin-top: 120px;
 }
 
 .attorneys div
@@ -734,4 +736,262 @@
     order: 3;
     align-self: center;
     flex-grow: 0;
+}
+
+
+.contact
+{
+    height: 1223px;
+    left: 0px;
+    right: 2px;
+    top: 3745px;
+    background:#252B42;
+    background-size: 807px;
+    display: flex;
+    justify-content: center;
+}
+.cont
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 0px;
+    gap: 50px;
+    width: 1050px;
+    height: 1202px;
+}
+.cont_info
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 1048px;
+    height: 315px;
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+.cont_text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 0px;
+    gap: 15px;
+    width: 602px;
+    height: 315px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.cont_text h2
+{
+    width: 456px;
+    height: 100px;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 0;
+}
+.cont_text p
+{
+    width: 415px;
+    height: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.cont_image
+{
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 14px;
+    width: 416px;
+    height: 269.1px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.field
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 0px;
+    width: 1052px;
+    height: 737px;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+}
+.field div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 1052px;
+    height: 637px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.field div div 
+{
+    isplay: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 688px;
+    height: 637px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#women 
+{
+    width: 364px;
+    height: 637px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.request
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 50px;
+    gap: 40px;
+    width: 688px;
+    height: 637px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.request h2
+{
+    width: 579px;
+    height: 50px;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.name_inp
+{
+    width: 588px;
+    height: 91px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.name_inp
+{
+    width: 588px;
+    height: 91px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.name_inp p
+{
+    width: 51px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.name_inp form
+{
+    height: 50px;
+    left: 2.5px;
+    right: 0.5px;
+    top: 34px;
+}
+.name_inp form input
+{
+    box-sizing: border-box;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+}
+.name_inp form input::placeholder
+{
+    width: 74px;
+    height: 28px;
+    left: 21px;
+    top: calc(50% - 28px/2);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.input
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    width: 588px;
+    height: 369px;
+    background: #FFFFFF;
+    border-radius: 1px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+footer
+{
+    position: absolute;
+    height: 414px;
+    left: 0px;
+    right: 2px;
+    top: 4968px;
+    background: #FAFAFA;
 }
